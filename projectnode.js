@@ -2,7 +2,7 @@
     var express = require("express");
     require('http');
     var app = express();
-    const PORT = process.env.PORT || 5000;
+    //const PORT = process.env.PORT || 5000;
 
     app.get('/',  function(req, res) {
 
@@ -15,7 +15,7 @@
     });
 
 
-    var server = app.listen(PORT, function () {
+    var server = app.listen(8080, function () {
 
       var host = server.address().address
       var port = server.address().port

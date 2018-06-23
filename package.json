@@ -10,5 +10,11 @@
   "license": "ISC",
   "engines": {
     "node": "8.10.0"
+  },
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "bcrypt": "^0.8.5"
   }
+
 }
